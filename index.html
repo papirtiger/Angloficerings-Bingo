@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angloficerings-Bingo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Angloficerings-Bingo</h1>
+    </header>
+    <main>
+        <input type="text" id="usernameInput" placeholder="Indtast dit navn">
+        <input type="text" id="wordInput" placeholder="Indtast engelsk udtryk" onkeypress="handleKeyPress(event)">
+        <button onclick="addWord()">Tilføj udtryk</button>
+        <div id="wordCloud" class="word-cloud"></div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
